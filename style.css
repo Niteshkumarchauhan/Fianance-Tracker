@@ -8,7 +8,7 @@ body {
   align-items: center;
 }
 .container {
-    background-color: rgb(239, 239, 239);
+  background-color: rgb(239, 239, 239);
   box-sizing: border-box;
   border: 1px solid rgb(172, 155, 155);
   padding: 50px;
@@ -28,6 +28,9 @@ select {
 form > select {
   padding: 10px;
   border: 1px solid #ddd;
+}
+#add_expance {
+  background-color: greenyellow;
 }
 form > button {
   padding: 10px;
@@ -54,4 +57,8 @@ form > button {
 .total-amount {
   text-align: right;
   margin-top: 20px 0;
+}
+.filter {
+  text-align: right;
+  margin-top: 20px;
 }
