@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(247, 247, 247);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+    background-color: rgb(239, 239, 239);
+  box-sizing: border-box;
+  border: 1px solid rgb(172, 155, 155);
+  padding: 50px;
+}
+#expense-form {
+  margin-bottom: 20px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+input,
+select {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+form > select {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+form > button {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.expense-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.expense-table th {
+  background-color: #f8f8f8;
+}
+.expense-table td {
+  background-color: #f8f8f8;
+}
+.total-amount {
+  text-align: right;
+  margin-top: 20px 0;
+}
